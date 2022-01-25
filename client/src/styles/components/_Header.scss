@@ -1,0 +1,22 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    background-color: black;
+
+    .menu-container {
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+    }
+}
+
+nav {
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 220ms ease-in-out;
+
+    &:hover {
+        text-shadow: gray 3px 3px;
+    }
+}

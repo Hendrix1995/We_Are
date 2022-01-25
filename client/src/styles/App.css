@@ -1,1 +1,124 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+  background-color: black;
+}
+
+.header-container .menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+nav {
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  -webkit-transition: 220ms ease-in-out;
+  transition: 220ms ease-in-out;
+}
+
+nav:hover {
+  text-shadow: gray 3px 3px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+footer .footer-container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  padding: 1rem 0;
+}
+
+.board-container {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 5rem 0.5rem;
+  width: 45%;
+}
+
+.board-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.today-container {
+  margin: 0 auto;
+  color: black;
+}
+
+.today-container .today-box {
+  background: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  max-width: 50%;
+}
+
+.today-container .slick-slide > div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 80%;
+  margin-top: 50px;
+  margin: auto;
+  height: 300px;
+  padding: 0px;
+}
+
+.today-container .today-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.today-container .today-thumbnail {
+  display: block;
+  margin: 0 auto;
+  background: red;
+  margin-bottom: 0.5rem;
+}
+
+.main-board-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=App.css.map */
