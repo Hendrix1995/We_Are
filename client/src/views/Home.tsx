@@ -9,56 +9,20 @@ function Home() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     };
 
     return (
-        <section className="home-container">
-            <h2>Today?</h2>
-            <article className="today-container">
+        <section className="home">
+            <h2>광고나 이벤트</h2>
+            <article className="main-notice-container">
                 <Slider {...settings}>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
+                    <div className="list-style default">
+                        <div className="thumb-box">앵간하면 이미지로 하자!</div>
                     </div>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
-                    </div>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
-                    </div>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
-                    </div>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
-                    </div>
-                    <div className="today-box">
-                        <h3>뭔가 만들고 있다...!</h3>
-                        <div className="today-content-box">
-                            <div className="today-thumbnail" />
-                            <div>뭔가 만들고는 있는데 도대체 뭔지 모르겠다!!</div>
-                        </div>
+                    <div className="list-style default">
+                        <div className="thumb-box">앵간하면 이미지로 하자!</div>
                     </div>
                 </Slider>
             </article>
