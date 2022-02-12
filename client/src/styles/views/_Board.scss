@@ -1,0 +1,41 @@
+.board {
+    .board-container {
+        width: 100%;
+    }
+}
+
+.board-menu-box {
+    padding: 0.4rem;
+}
+
+.board-menu-title {
+    margin: 0 0 6px 0;
+}
+
+.board-menu-detail-box {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+
+.board-menu-contents-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.board-menu-icon {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    margin-right: 4px;
+}
+
+.board-menu-user-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+}
