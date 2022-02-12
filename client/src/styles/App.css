@@ -89,6 +89,7 @@ footer .footer-container {
 
 .board .board-container {
   width: 100%;
+  margin: 0;
   padding: 0.8rem 0;
 }
 
