@@ -7,10 +7,10 @@ function Header() {
     return (
         <header>
             <div className="header-container">
-                <nav onClick={() => navigate("/")}>홈으로!</nav>
+                <nav onClick={() => navigate("/")}>We_Are!</nav>
                 <div className="menu-container">
-                    <nav onClick={() => navigate("/coding")}>코딩</nav>
-                    <nav>일상</nav>
+                    <nav onClick={() => navigate("/coding")}>Coding</nav>
+                    <nav>Life</nav>
                 </div>
             </div>
         </header>
