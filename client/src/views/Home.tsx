@@ -11,6 +11,10 @@ function Home() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 10000,
+        arrows: false,
+        pauseOnHover: true,
     };
 
     return (
@@ -19,10 +23,10 @@ function Home() {
             <article className="main-notice-container">
                 <Slider {...settings}>
                     <div className="list-style default">
-                        <div className="thumb-box">앵간하면 이미지로 하자!</div>
+                        <div className="thumb-box">이미지 배너</div>
                     </div>
                     <div className="list-style default">
-                        <div className="thumb-box">앵간하면 이미지로 하자!</div>
+                        <div className="thumb-box">이미지 배너</div>
                     </div>
                 </Slider>
             </article>
