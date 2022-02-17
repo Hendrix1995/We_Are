@@ -7,7 +7,6 @@ function Coding() {
             <h2>Coding</h2>
             <div className="board-container">
                 <PostList />
-                <PostList />
             </div>
         </section>
     );
