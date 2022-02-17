@@ -10,7 +10,7 @@ function PostList() {
                     <div className="board-menu-detail-box">
                         <div className="board-menu-contents-box">
                             <div className="board-menu-icon" />
-                            <div className="board-menu-text">3</div>
+                            <div className="board-menu-text">{post.suggestion}</div>
                         </div>
                         <div className="board-menu-contents-box">
                             <div className="board-menu-icon" />
