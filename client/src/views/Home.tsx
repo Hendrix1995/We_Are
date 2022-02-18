@@ -4,7 +4,18 @@ import MainBoard from "../components/MainBoard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Home() {
+interface postsProps {
+    dummyData: {
+        id: number;
+        title: string;
+        content: string;
+        suggestion: number;
+        created_by: string;
+        created_at: string;
+    }[];
+}
+
+function Home({ dummyData }: postsProps) {
     const settings = {
         dots: true,
         infinite: true,
@@ -31,8 +42,8 @@ function Home() {
                 </Slider>
             </article>
             <main className="main-board-container">
-                <MainBoard />
-                <MainBoard />
+                <MainBoard dummyData={dummyData} />
+                <MainBoard dummyData={dummyData} />
             </main>
         </section>
     );

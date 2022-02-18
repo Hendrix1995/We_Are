@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
+import dummyData from "../src/static/dummyData";
 
 // views
 import Home from "./views/Home";
@@ -16,8 +17,8 @@ function App() {
             <div className="App">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/coding" element={<Coding />} />
+                    <Route path="/" element={<Home dummyData={dummyData} />} />
+                    <Route path="/coding" element={<Coding dummyData={dummyData} />} />
                 </Routes>
                 <Footer />
             </div>

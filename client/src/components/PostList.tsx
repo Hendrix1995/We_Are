@@ -1,7 +1,17 @@
 import React from "react";
-import dummyData from "../static/dummyData";
 
-function PostList() {
+interface postsProps {
+    dummyData: {
+        id: number;
+        title: string;
+        content: string;
+        suggestion: number;
+        created_by: string;
+        created_at: string;
+    }[];
+}
+
+function PostList({ dummyData }: postsProps) {
     return (
         <>
             {dummyData.map((post) => (

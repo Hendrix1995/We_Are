@@ -23,6 +23,14 @@ const dummyData = [
         created_by: "틀딱대장",
         created_at: "2022.02.17.12:00:00",
     },
+    {
+        id: 4,
+        title: "안녕 안녕 안녕!",
+        content: "잘가 잘가 잘가",
+        suggestion: 9,
+        created_by: "디지몬마스터",
+        created_at: "2022.04.17.12:00:00",
+    },
 ];
 
 export default dummyData;
