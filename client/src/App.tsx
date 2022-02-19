@@ -6,6 +6,7 @@ import dummyData from "../src/static/dummyData";
 // views
 import Home from "./views/Home";
 import Coding from "./views/Coding";
+import Post from "./views/Post";
 
 // components
 import Header from "./components/Header";
@@ -19,6 +20,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home dummyData={dummyData} />} />
                     <Route path="/coding" element={<Coding dummyData={dummyData} />} />
+                    <Route path="/post" element={<Post />} />
                 </Routes>
                 <Footer />
             </div>

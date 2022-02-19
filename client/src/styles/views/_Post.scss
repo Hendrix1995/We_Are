@@ -1,0 +1,21 @@
+.post {
+    font-size: 2rem;
+}
+
+.post-title {
+    border-bottom: 2px solid #fff;
+    padding: 0.8rem;
+}
+
+.post-created-info-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+.post-content {
+    background-color: #fff;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
