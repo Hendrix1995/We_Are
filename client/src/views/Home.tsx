@@ -10,6 +10,7 @@ interface postsProps {
         title: string;
         content: string;
         suggestion: number;
+        category: number;
         created_by: string;
         created_at: string;
     }[];
@@ -42,8 +43,8 @@ function Home({ dummyData }: postsProps) {
                 </Slider>
             </article>
             <main className="main-board-container">
-                <MainBoard dummyData={dummyData} />
-                <MainBoard dummyData={dummyData} />
+                <MainBoard dummyData={dummyData.filter((el) => el.category === 1)} />
+                <MainBoard dummyData={dummyData.filter((el) => el.category === 2)} />
             </main>
         </section>
     );
