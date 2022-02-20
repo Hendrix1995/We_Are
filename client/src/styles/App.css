@@ -67,6 +67,77 @@ footer .footer-container {
           justify-content: space-between;
 }
 
+.comment {
+  color: black;
+}
+
+.comment-input-container {
+  width: 100%;
+}
+
+.comment-input {
+  width: 100%;
+}
+
+.comment-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.2rem 0;
+}
+
+.comment-button {
+  width: 30%;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.comment-board-container {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.comment-created-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  padding: 0.8rem;
+  background-color: #9999;
+}
+
+.comment-created-user-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.comment-created_icon {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  margin-right: 2px;
+}
+
+.comment-content {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+
 .main-notice-container {
   padding: 1rem 4rem;
 }
