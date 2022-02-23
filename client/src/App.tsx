@@ -13,14 +13,16 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
+    const [clickedPost, setClickedPost] = useState({});
+
     return (
         <BrowserRouter>
             <div className="App">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home dummyData={dummyData} />} />
+                    <Route path="/" element={<Home dummyData={dummyData} setClickedPost={setClickedPost} />} />
                     <Route path="/coding" element={<Coding dummyData={dummyData} />} />
-                    <Route path="/post" element={<Post />} />
+                    <Route path="/postid=:no" element={<Post clickedPost={clickedPost} />} />
                 </Routes>
                 <Footer />
             </div>
