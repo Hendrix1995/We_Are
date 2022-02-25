@@ -20,7 +20,7 @@ function App() {
             <div className="App">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home dummyData={dummyData} setClickedPost={setClickedPost} />} />
+                    <Route path="/" element={<Home dummyData={dummyData} />} />
                     <Route path="/coding" element={<Coding dummyData={dummyData} />} />
                     <Route path="/postid=:no" element={<Post clickedPost={clickedPost} />} />
                 </Routes>

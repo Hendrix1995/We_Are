@@ -16,7 +16,7 @@ interface postsProps {
     }[];
 }
 
-function Home({ dummyData }: postsProps, setClickedPost: any) {
+function Home({ dummyData }: postsProps) {
     const settings = {
         dots: true,
         infinite: true,
@@ -43,8 +43,8 @@ function Home({ dummyData }: postsProps, setClickedPost: any) {
                 </Slider>
             </article>
             <main className="main-board-container">
-                <MainBoard dummyData={dummyData.filter((el) => el.category === 1)} setClickedPost={setClickedPost} />
-                <MainBoard dummyData={dummyData.filter((el) => el.category === 2)} setClickedPost={setClickedPost} />
+                <MainBoard dummyData={dummyData.filter((el) => el.category === 1)} />
+                <MainBoard dummyData={dummyData.filter((el) => el.category === 2)} />
             </main>
         </section>
     );
