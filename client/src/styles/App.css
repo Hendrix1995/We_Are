@@ -33,20 +33,14 @@ nav:hover {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
-}
-
-footer .footer-container {
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
   background-color: black;
-  padding: 1rem 0;
+  text-align: center;
 }
 
 .board-container {
@@ -253,5 +247,10 @@ footer .footer-container {
   padding: 1.5rem;
   border-radius: 15px;
   font-size: 1.2rem;
+}
+
+#wrapper {
+  height: auto;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=App.css.map */

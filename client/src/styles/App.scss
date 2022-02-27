@@ -8,3 +8,8 @@
 @import "./views/Home";
 @import "./views/Board";
 @import "./views/Post";
+
+#wrapper {
+    height: auto;
+    min-height: 100vh;
+}

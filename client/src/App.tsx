@@ -19,11 +19,13 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <Header />
-                <Routes>
-                    <Route path="/" element={<Home dummyData={dummyData} />} />
-                    <Route path="/coding" element={<Coding dummyData={dummyData} />} />
-                    <Route path="/postid=:no" element={<Post clickedPost={clickedPost} />} />
-                </Routes>
+                <div id="wrapper">
+                    <Routes>
+                        <Route path="/" element={<Home dummyData={dummyData} />} />
+                        <Route path="/coding" element={<Coding dummyData={dummyData} />} />
+                        <Route path="/postid=:no" element={<Post clickedPost={clickedPost} />} />
+                    </Routes>
+                </div>
                 <Footer />
             </div>
         </BrowserRouter>
