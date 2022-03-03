@@ -14,7 +14,7 @@ function Comment() {
                 <div className="comment-content">오...</div>
             </div>
             <div className="comment-input-container">
-                <input className="comment-input" />
+                <input className="comment-input" placeholder="내용을 입력하세요" />
                 <div className="comment-button-container">
                     <button className="comment-button">댓글 쓰기</button>
                     <button className="comment-button">댓글 쓰기 + 추천</button>
